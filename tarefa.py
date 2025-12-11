@@ -11,7 +11,7 @@ class Tarefa:
         
     def to_dict(self):
         return { "titulo" : self.titulo,
-                "descricao" : self.descricao,
+                "descricao" : self.descricao, 
                 "categoria" : self.categoria,
                 "concluida" : self.concluida 
                 }
